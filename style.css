@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 380px;
+    height: 125px;
+    margin-bottom: 0px;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    width: 90%;
+    margin: 0px auto 5px auto;
+}
+
+.search {
+    background-color: #EEEEEE;
+    height: 80px;
+}
+
+.search p {
+    font-size: 20px;
+}
+
+.search input {
+    width: 325px;
+    height: 25px;
+    display: block;
+    margin: 0px auto;
+}
+
+.search button {
+    width: 125px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.special {
+    background-color: #7EE5DA;
+    height: 90px;
+    width: 39.3%;
+    float: left;
+    font-size: 20px;
+    margin-right: 0.3%;
+}
+
+.special p {
+    padding-top: 7px;
+}
+.special a {
+    display: block;
+}
+
+.links {
+    background-color: #70CCC2;
+    height: 90px;
+    width: 19.7%;
+    float: left;
+    margin-right: 0.3%;
+}
+
+.links a {
+    display: block;
+    font-size: 16px;
+    padding-top: 2px;
+}
+
+
+.email {
+    background-color:#62B3AA;
+    height: 90px;
+    width: 40%;
+    float: left;
+}
+
+.email p {
+    font-size: 15px;
+}
+
+.email input {
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 25px;
+}
+
+.email input::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
+.email button {
+    width: 90px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.clear {
+    clear: both;
+}
